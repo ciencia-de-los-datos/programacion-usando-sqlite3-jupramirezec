@@ -42,4 +42,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-select K0, round(MAX(c12), 2) as 'MAX(c12)', round(min(c12),2) as 'min(C12)' from tbl1 group by K0
+
+select K0, MAX(C12) , min(C12) from tbl1 group by K0
+
+--select K0, round(MAX(c12), 2) as 'MAX(c12)', round(min(c12),2) as 'min(C12)' from tbl1 group by K0
