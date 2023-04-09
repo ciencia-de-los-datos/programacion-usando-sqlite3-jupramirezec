@@ -40,3 +40,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select c16, K0 from tbl1 where K0 = SUBSTR(c16,1,1) 
